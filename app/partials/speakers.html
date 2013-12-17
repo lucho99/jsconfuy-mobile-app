@@ -1,0 +1,23 @@
+<h1>Speakers</h1>
+
+<div id="speakers" class="list-group">
+  
+    <div class="list-group-item" ng-repeat="speaker in speakers">
+      <div class="picture">
+        <img  ng-src="{{speaker.picture}}" />
+      </div>  
+      <div class="bio">
+        <h4 class="list-group-item-heading">{{speaker.name}}</h4>
+        <p class="list-group-item-text">{{speaker.bio}}</p>
+        <h5>Talks</h5>
+        <ul class="unstyled">
+          <li ng-repeat="talk in speaker.talks">
+            <a href="{{talk.url}}">
+              {{talk.name}}
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+</div>

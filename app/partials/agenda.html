@@ -1,0 +1,24 @@
+<div class="panel panel-default" ng-repeat="day in agenda">
+  
+  <div class="panel-heading" ng-click="changeDay(day)" ng-class="getPanelClass(day)">
+    <b>{{day.day}}</b>
+  </div>
+    
+  <table class="table table-bordered" ng-class="getDayClass(day)">
+    <thead>
+      <tr>
+        <th class="hour">Hour</th>
+        <th class="activity">Activity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="activity in day.agenda" ng-class="getDurationClass(activity.duration)">
+        <td>{{activity.hour}}</td>
+        <td>
+          {{activity.title}}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
+</div>

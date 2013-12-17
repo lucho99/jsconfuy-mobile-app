@@ -1,0 +1,28 @@
+[
+  { "day": "Friday 14th",
+    "active": true, 
+    "agenda": [
+      { "hour": "10:00", "title": "Charla 1", "description": "Descripcion", "duration": "30" },
+      { "hour": "10:35", "title": "Cofee Break", "description": "Auspiciado por", "duration": "15" },
+      { "hour": "11:00", "title": "Charla 2", "description": "Descripcion", "duration": "30" },
+      { "hour": "10:35", "title": "Cofee Break", "description": "Auspiciado por", "duration": "15" },
+      { "hour": "12:00", "title": "Charla 3", "description": "Descripcion", "duration": "30" },
+      { "hour": "13:00", "title": "Lunch", "description": "", "duration": "60" },
+      { "hour": "12:00", "title": "Charla 4", "description": "Descripcion", "duration": "30" },
+      { "hour": "10:35", "title": "Cofee Break", "description": "Auspiciado por", "duration": "15" }
+    ]
+  },
+  { "day": "Saturday 15th", 
+    "active": false,
+    "agenda": [
+      { "hour": "10:00", "title": "Charla 1", "description": "Descripcion", "duration": "30" },
+      { "hour": "10:35", "title": "Cofee Break", "description": "Auspiciado por", "duration": "15" },
+      { "hour": "11:00", "title": "Charla 2", "description": "Descripcion", "duration": "30" },
+      { "hour": "10:35", "title": "Cofee Break", "description": "Auspiciado por", "duration": "15" },
+      { "hour": "12:00", "title": "Charla 3", "description": "Descripcion", "duration": "30" },
+      { "hour": "13:00", "title": "Lunch", "description": "", "duration": "60" },
+      { "hour": "12:00", "title": "Charla 4", "description": "Descripcion", "duration": "30" },
+      { "hour": "10:35", "title": "Cofee Break", "description": "Auspiciado por", "duration": "15" }
+    ]
+  }
+]

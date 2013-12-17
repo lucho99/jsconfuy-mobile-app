@@ -1,0 +1,13 @@
+{
+  "name": "JSConf UY Mobile",
+  "version": "1.0.0",
+  "dependencies": {
+    "angular": "~1.2.4",
+    "bootstrap": "~3.0.3",
+    "angular-route": "*",
+    "angular-underscore-module": "*",
+    "underscore": "*",
+    "angularLocalStorage": "*",
+    "angular-cookies": "*"
+  }
+}
