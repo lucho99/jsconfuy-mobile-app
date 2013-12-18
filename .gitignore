@@ -1,2 +1,5 @@
 app/components
 app/components/*
+
+node_modules
+node_modules/*
