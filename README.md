@@ -1,11 +1,16 @@
-jsconfuy-mobile-app
+JSConfUY mobile app
 ===================
 
 Mobile app for the agenda and speakers bio of the jsconf.uy
 
+User notes
+----------
+
+If you only want to take a look to the app just `grunt connect`
+
 Developer notes
 ---------------
 
-* Go to the app/ folder
-* Turn on any web server, I use the php one. (php -S localhost: 9090)
-* Shrink your browser
+To develop something first `bower install` to install dependencies. Then modify the scripts and run the tasks `grunt concat` & `bower uglify`.
+
+To check the changes you can `grunt connect` and navigate to http://localhost:1337.
